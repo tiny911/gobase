@@ -1,4 +1,4 @@
-module github.com/tiny911/gobase
+module gobase
 
 go 1.12
 
