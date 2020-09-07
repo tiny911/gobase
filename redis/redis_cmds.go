@@ -4,7 +4,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 	"github.com/tiny911/doraemon/log"
 )
 

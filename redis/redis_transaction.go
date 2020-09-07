@@ -1,6 +1,6 @@
 package redis
 
-import "github.com/garyburd/redigo/redis"
+import "github.com/gomodule/redigo/redis"
 
 type Transaction struct {
 	conn redis.Conn

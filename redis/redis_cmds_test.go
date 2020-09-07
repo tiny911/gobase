@@ -2,8 +2,9 @@ package redis
 
 import (
 	"fmt"
-	"github.com/garyburd/redigo/redis"
 	"testing"
+
+	"github.com/gomodule/redigo/redis"
 )
 
 func TestKeyMethod(t *testing.T) {
