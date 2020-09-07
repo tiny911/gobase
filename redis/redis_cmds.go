@@ -523,7 +523,7 @@ func (this *Cli) Publish(channel, message string) (int, error) {
 func (this *Cli) Subscribe(channel string) (*SubscribeT, error) {
 	conn := this.getWrite()
 
-	psc := redis.PubSubConn{conn}
+	psc := redis.PubSubConn{Conn: conn}
 	err := psc.Subscribe(channel)
 	if err != nil {
 		conn.Close()
